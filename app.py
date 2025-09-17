@@ -9,6 +9,9 @@ file_path = os.path.join(os.path.dirname(__file__), "vehicles_us.csv")
 car_data = pd.read_csv(file_path)  # leer los datos
 ###
 #car_data = pd.read_csv(r"C:\Users\falco\OneDrive\Documentos\SPRINT7\vehicles_us.csv") # leer los datos
+# ✅ Encabezado de la app
+st.header("Análisis de Datos de Vehículos")
+
 hist_button = st.button('Construir histograma') # crear un botón
    
 if hist_button: # al hacer clic en el botón
