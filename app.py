@@ -12,7 +12,7 @@ car_data = pd.read_csv(file_path)  # leer los datos
 # ✅ Encabezado de la app
 st.header("Análisis de Datos de Vehículos")
 
-hist_button = st.button('Construir histograma') # crear un botón
+#hist_button = st.button('Construir histograma') # crear un botón
    
 #if hist_button: # al hacer clic en el botón
     # escribir un mensaje
